@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociación Deportiva</title>
+    <style>
+        table {
+            border: solid 1px black;
+            float: right;
+        }
+
+        #ano,
+        #mes {
+            background-color: green;
+            color: white;
+        }
+
+        #dia {
+            background-color: greenyellow;
+            font-size: 24px;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        #page-container {
+            position: relative;
+            min-height: 100vh;
+        }
+
+        #content-wrap {
+            padding-bottom: 2.5rem;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 2.5rem;
+        }
+        body{
+            background-color: wheat;
+        }
+    </style>
+</head>
+
+<body onload="bienvenidaEmergente()">
+    <div id="page-container">
+    <header>
+        <div id="#content-wrap">           
+            <table>
+                <tr>
+                    <td id="ano"></td>
+                </tr>
+                <tr>
+                    <td id="dia"></td>
+                </tr>
+                <tr>
+                    <td id="mes"></td>
+                </tr>
+            </table>
+            <h1>Página proyecto ud3</h1>
+        </div>
+    </header>
+    <article>
+        <section>
+            <p>
+                Esto es un texto de prueba para que aparezca algo en la página.
+            </p>
+        </section>
+    </article>
+    <footer>
+        <span>Asociacion Depor </span><span>Manuel Pablo Ramos Aguilar</span>
+        <a href="" onclick="avisoWindow()">Aviso Legal</a>
+    </footer>
+    </div>
+</body>
+<script src="asociacionDeportiva.js"></script>
+
+</html>
